@@ -5,7 +5,14 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class Category
+    public class Category: BaseEntity
     {
+        public Category()
+        {
+            Courses = new List<Course>();
+        }
+        public string Name { get; set; }
+        
+        public virtual ICollection<Course> Courses { get; set; }
     }
 }

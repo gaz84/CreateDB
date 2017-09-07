@@ -5,7 +5,9 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class Statistics:BaseEntity
+
+    public class Statistics: BaseEntity
+
     {
         public int SuccessPercent { get; set; }
         public User User { get; set; }
