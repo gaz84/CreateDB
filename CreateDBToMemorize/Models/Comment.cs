@@ -5,7 +5,7 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class Comment
+    public class Comment: BaseEntity
     {
         public string Message { get; set; }
 

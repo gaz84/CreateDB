@@ -8,5 +8,7 @@ namespace CreateDBToMemorize.Models
     public class Role:BaseEntity
     {
         public string Name { get; set; }
+
+        public virtual UserRole UserRoles { get; set; }
     }
 }

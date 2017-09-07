@@ -10,6 +10,7 @@ namespace CreateDBToMemorize.Models
         public User()
         {
             Comments = new List<Comment>();
+            Reports = new List<Report>();
         }
         public string Login { get; set; }
         public string Password { get; set; }

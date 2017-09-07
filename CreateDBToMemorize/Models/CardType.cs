@@ -5,7 +5,8 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class CardType
+    public class CardType: BaseEntity
     {
+        public virtual ICollection<Card> Cards { get; set; }
     }
 }

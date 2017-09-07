@@ -5,7 +5,7 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class UserRole:BaseEntity
+    public class UserRole: BaseEntity
     {
         public User User { get; set; }
         public Role Role { get; set; }

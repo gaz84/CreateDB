@@ -181,9 +181,14 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Answer.cs" />
     <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\Card.cs" />
+    <Compile Include="Models\CardType.cs" />
+    <Compile Include="Models\Category.cs" />
     <Compile Include="Models\Comment.cs" />
     <Compile Include="Models\Course.cs" />
+    <Compile Include="Models\Deck.cs" />
     <Compile Include="Models\Report.cs" />
     <Compile Include="Models\Role.cs" />
     <Compile Include="Models\Statistics.cs" />
@@ -275,7 +280,7 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
-          <UseIIS>True</UseIIS>
+          <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>56657</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
