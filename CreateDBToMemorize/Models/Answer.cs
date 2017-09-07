@@ -7,7 +7,7 @@ namespace CreateDBToMemorize.Models
 {
     public class Answer: BaseEntity
     {
-        public string Answer { get; set; }
+        public string Text { get; set; }
         public bool IsCorrect { get; set; }
 
         public virtual Card Card { get; set; }

@@ -5,10 +5,10 @@ using System.Web;
 
 namespace CreateDBToMemorize.Models
 {
-    public class Statistics:BaseEntity
+    public class UserCourse:BaseEntity
     {
-        public int SuccessPercent { get; set; }
+        public int Rating { get; set; }
         public User User { get; set; }
-        public Deck Deck { get; set; }
+        public Course Course { get; set; }
     }
 }
