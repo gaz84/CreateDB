@@ -260,7 +260,7 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\Users\nazar\Documents\Visual Studio 2017\Projects\MemoDAL\MemoDAL\MemoDAL.csproj">
+    <ProjectReference Include="..\MemoDAL\MemoDAL\MemoDAL.csproj">
       <Project>{4d151ebe-00e1-4048-b5a8-9581b928851b}</Project>
       <Name>MemoDAL</Name>
     </ProjectReference>
